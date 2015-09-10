@@ -1,0 +1,44 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.ociweb.jackson</groupId>
+  <artifactId>JSONParserStage</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>JSONParserStage</name>
+  
+   <dependencies>
+	  
+	  <dependency>
+	    <groupId>com.fasterxml.jackson.core</groupId>
+	    <artifactId>jackson-databind</artifactId>
+	    <version>2.2.3</version>
+	  </dependency>
+
+		<dependency>
+	  		<groupId>com.ociweb</groupId>
+	  		<artifactId>Pronghorn</artifactId>
+	  		<version>0.0.1-SNAPSHOT</version>
+    	</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>1.7.12</version>
+		</dependency>	
+        <dependency>
+          <groupId>org.slf4j</groupId>
+          <artifactId>slf4j-simple</artifactId>
+          <version>1.7.12</version>
+          <scope>runtime</scope>
+        </dependency>   
+   		
+      	<dependency>
+		      <groupId>junit</groupId>
+		      <artifactId>junit</artifactId>
+		      <version>4.12</version>
+		  	  <type>jar</type>
+		  	  <scope>test</scope>
+			  <optional>false</optional>
+		</dependency>
+        
+	</dependencies>
+  
+</project>
