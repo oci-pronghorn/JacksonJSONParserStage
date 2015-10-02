@@ -1,4 +1,4 @@
-package com.ociweb.jackson;
+package com.ociweb.pronghorn.adapter.jackson;
 
 import static org.junit.Assert.*;
 

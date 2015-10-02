@@ -4,7 +4,8 @@
   <artifactId>JSONParserStage</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <name>JSONParserStage</name>
-  
+  <description>Pronghorn Adapter for Jackson JSON parse</description>
+
    <dependencies>
 	  
 	  <dependency>
@@ -41,4 +42,5 @@
         
 	</dependencies>
   
+
 </project>
